@@ -22,11 +22,11 @@
     $('#debug').on('click', function() {
         if (debug == false) {
             debug = true;
-            $(this).addClass('btn-success').removeClass('btn-danger').html('Отладка включена');
+            $(this).addClass('btn-success').removeClass('btn-danger').html('Đã Bật Debug');
             $('#debug_data').removeClass('hidden');
         } else {
             debug = false;
-            $(this).removeClass('btn-success').addClass('btn-danger').html('Включить отладку');
+            $(this).removeClass('btn-success').addClass('btn-danger').html('Bật Debug');
             $('#debug_data').addClass('hidden');
         }
     });
